@@ -1,7 +1,7 @@
 # Setting Up a Premium SMS Sending Service for MT Short Codes
 #### General outline for sending
 
-- moveSubs.php, fetchsubscribers.php and premiumsms.php are run through cron jobs
+- `moveSubs.php`, `fetchsubscribers.php` and `premiumsms.php` are run through cron jobs
 - More information from [Africa's Talking API](docs.africastalking.com/sms). 
 - The following are needed:
 
@@ -13,7 +13,7 @@
 
 
 ## Prerequisites
-- Update the premiumConfig.php file and the dbCon.php (database connection) in your root directory and fill in your Africa's Talking API credentials...
+- Update the `premiumConfig.php` file and the `dbCon.php` (database connection) in your root directory and fill in your Africa's Talking API credentials...
 
 #### Database tables
 - Subscribers table:
